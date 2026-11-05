@@ -1,17 +1,26 @@
 # chess_app
 
-A new Flutter project.
+A Flutter chess app for Android and iOS: pass-and-play or play the computer
+(Easy or Normal). Built for a PBL module.
 
-## Getting Started
+## Features
+- Legal-move highlighting; check, checkmate, stalemate and draw detection
+  (rules come from the `chess` package)
+- Player cards with 10-minute clocks, move history, captured pieces
+- Promotion dialog, Resign, Draw offer, New game
+- Computer opponent: Easy (random) or Normal (two-move look-ahead)
+- Responsive portrait and landscape layout
 
-This project is a starting point for a Flutter application.
+## Run it
+Install Flutter, then run `flutter pub get` and `flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
+## Structure
+- `lib/`: main.dart, game_screen.dart, board_view.dart, player_card.dart,
+  app_text.dart, chess_ai.dart
+- `assets/pieces/`: SVG piece images. `assets/fonts/`: heading font
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Credits
+- Piece images: "cburnett" set by Colin M.L. Burnett, via Lichess
+  (listed there as GPLv2+)
+- Font: DM Serif Display, SIL Open Font License 1.1
+- Rules engine: the `chess` package on pub.dev
