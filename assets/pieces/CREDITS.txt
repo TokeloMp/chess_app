@@ -1,0 +1,5 @@
+Chess piece images ("cburnett" set)
+Author: Colin M.L. Burnett (https://en.wikipedia.org/wiki/User:Cburnett)
+Source: Lichess (https://github.com/lichess-org/lila), folder public/piece/cburnett
+Licence as listed by Lichess: GPLv2+ (https://www.gnu.org/licenses/gpl-2.0.txt)
+File names: w/b = white/black, then K Q R B N P = king queen rook bishop knight pawn.
